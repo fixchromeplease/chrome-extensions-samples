@@ -1,0 +1,7 @@
+# pick a place where the files will live
+git clone git://github.com/defunctzombie/localtunnel-server.git
+cd localtunnel-server
+npm install
+
+# server set to run on port 1234
+bin/server --port 1234
