@@ -1,0 +1,1 @@
+run-minibrowser --debug --wpe
