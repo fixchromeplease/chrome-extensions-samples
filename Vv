@@ -1,0 +1,13 @@
+# These do not work:
+url: ""
+url: "http://127.0.0.1:4000"
+url: "http://localhost:4000" # the base hostname & protocol for your site
+
+# This as part of my workaround does function:
+# development
+baseurl: ""
+url://loco:4000
+
+# production
+baseurl: "/bugger" 
+url: ""
